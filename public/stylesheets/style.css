@@ -1,0 +1,52 @@
+/*body {
+  background: #000000 url("/nyc-skyline.jpeg") no-repeat center center fixed;
+  -webkit-background-size: 91% auto;
+  -moz-background-size: 91% auto;
+  -o-background-size: 91% auto;
+  background-size: 91% auto;
+
+}*/
+
+img {
+  width: 80%;
+}
+
+.heading {
+  font-style: bold;
+}
+
+.top {
+  margin-top: 5%;
+
+}
+
+section.content {
+  height: 745px;
+  padding-top: 5%;
+}
+
+#home {
+  background: #000000 url("/nyc-skyline.jpeg") no-repeat center center fixed;
+  -webkit-background-size: 91% auto;
+  -moz-background-size: 91% auto;
+  -o-background-size: 91% auto;
+ background-size: 91% auto;
+}
+
+#about {
+  background-color: white
+}
+
+.center-text {
+  text-align: center;
+}
+
+#home .well {
+  margin-top: 10%;
+}
+
+.font {
+  font-family: palatino;
+}
+
+
