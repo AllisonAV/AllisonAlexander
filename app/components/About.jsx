@@ -7,8 +7,11 @@ export default () => {
                 Recent Graduate of Grace Hopper Academy
           </div>
           <div className="flex-item-col font">
-            <img src="grace-hopper-academy.jpg"
-                 className="img-logo"/>
+            <a href="https://www.gracehopper.com/curriculum"
+               target="_blank">
+              <img src="grace-hopper-academy.jpg"
+                   className="img-logo"/>
+            </a>
           </div>
           <br/>
           <div className="flex-item-col font">

@@ -21,6 +21,13 @@ export default() => {
         </a>
       </div>
       <div className="well well-sm">
+        <a href="https://www.linkedin.com/in/allisonveleberalexander/"
+           target="_blank">
+           <img className="img-contact-linkedin"
+                src="linked-in.png"/>
+        </a>
+      </div>
+      <div className="well well-sm">
         <a href="https://github.com/AllisonAV"
            target="_blank">
           <img className="img-github"
