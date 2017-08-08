@@ -6,7 +6,6 @@ export default() => {
     <h1 className="heading">Allison Alexander</h1>
     <h2 className="heading">Personal Projects</h2>
 
-
 <table>
         <thead>
         </thead>
@@ -20,7 +19,8 @@ export default() => {
           </tr>
           <tr>
             <td>
-              <img src="weather.png" />
+              <img className="img-projects"
+                   src="weather.png" />
             </td>
           </tr>
           <tr>
@@ -44,7 +44,8 @@ export default() => {
           </tr>
           <tr>
             <td>
-              <img src="adventureUs.png" />
+              <img className="img-projects"
+                   src="adventureUs.png" />
             </td>
           </tr>
           <tr>
@@ -54,7 +55,6 @@ export default() => {
           </tr>
         </tbody>
         </table>
-
 
         <table>
         <thead>
@@ -68,7 +68,8 @@ export default() => {
           </tr>
           <tr>
             <td>
-              <img src="tomato-store.png" />
+              <img className="img-projects"
+                   src="tomato-store.png" />
             </td>
           </tr>
           <tr>
@@ -84,20 +85,15 @@ export default() => {
   )
 }
 
-
-/*     
+/*
     <div className="row">
       <div className="col-md-4">
-        
       </div>
 
       <div className="col-md-4">
 
-
-
       </div>
       <div className="col-md-4">
-
-
       </div>
-    </div> */
+    </div>
+    */

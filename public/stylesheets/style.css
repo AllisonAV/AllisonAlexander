@@ -7,8 +7,36 @@
 
 }*/
 
-img {
+body {
+  font-family: "Abril Fatface", palatino !important;
+}
+
+.font {
+  font-family: "Abril Fatface", palatino;
+}
+
+.name {
+  width: 50%;
+  margin: 1% 25% 1% 35%;
+  font-size: 250%;
+}
+.img-projects {
   width: 80%;
+}
+.img-contact {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.img-logo {
+  width: 20%;
+  margin-left: 5%;
+}
+
+.img-github {
+  width: 50%;
+  margin-top: 15%;
+  margin-left: 23%;
 }
 
 .heading {
@@ -25,6 +53,53 @@ section.content {
   padding-top: 5%;
 }
 
+.flex-container-home {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-container-about {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-container-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-container-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-item-skills {
+  width: 25%;
+  padding: 2%;
+  margin: 2% 4%;
+  background-color: #1c1e22;
+  text-align: center;
+  border-radius: 35px;
+}
+
+.flex-item-about {
+  width: 41%;
+}
+
+.flex-item-about-left {
+  width: 15%;
+}
+.flex-item-col {
+  width: 100%;
+  text-align: center;
+  padding: 2%;
+}
+
+.well-sm {
+  width: 20%;
+}
+
 #home {
   background: #000000 url("/nyc-skyline.jpeg") no-repeat center center fixed;
   -webkit-background-size: 91% auto;
@@ -34,7 +109,7 @@ section.content {
 }
 
 #about {
-  background-color: white
+  background-color: #00BFFF;
 }
 
 .center-text {
@@ -42,11 +117,14 @@ section.content {
 }
 
 #home .well {
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
-.font {
-  font-family: palatino;
+.skills {
+  margin-top: 0 !important;
 }
+
+  
+
 
 
