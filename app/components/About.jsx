@@ -51,9 +51,9 @@ export default () => {
           <div className="flex-item-skills">Flexbox</div>
           <div className="flex-item-skills">Agile</div>
           <div className="flex-item-skills">Estimation</div>
+          <div className="flex-item-skills">Debugging</div>
           <div className="flex-item-skills">Unit Testing</div>
           <div className="flex-item-skills">Integration Testing</div>
-          <div className="flex-item-skills">Debugging</div>
           <div className="flex-item-skills">Production Support</div>
         </div>
       </div>

@@ -15,6 +15,10 @@ body {
   font-family: "Abril Fatface", palatino;
 }
 
+.font-link {
+  font-size: 200%;
+}
+
 .name {
   width: 50%;
   margin: 1% 25% 1% 35%;
@@ -45,13 +49,8 @@ body {
   margin-left: 23%;
 }
 
-.heading {
-  font-style: bold;
-}
-
 .top {
   margin-top: 5%;
-
 }
 
 section.content {
