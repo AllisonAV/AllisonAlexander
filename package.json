@@ -25,7 +25,7 @@
     "deploy-heroku": "bin/deploy-heroku.sh",
     "lint": "esw . --ignore-path .gitignore --ext '.js,.jsx'",
     "lint-watch": "npm run lint -- -w",
-    "postinstall": "npm run build", // referencing the "build" script above
+    "postinstall": "npm run build",
     "prepush": "npm run lint && npm run test"
   },
   "repository": {
